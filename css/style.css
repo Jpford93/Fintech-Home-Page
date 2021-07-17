@@ -1,0 +1,143 @@
+#menu {
+    text-align: left;
+    background-color: #BBDFC8;
+}
+
+.mint {
+    background-color: #75CFB8;
+    padding-bottom: 2%;
+}
+
+
+/*Nav Bar*/
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 3%;
+}
+
+.nav-item {
+    padding: 0 5px 0 0;
+    margin-right: 50px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #EA5455;
+}
+
+
+/*Main Body*/
+
+#Sign-up {
+    padding-bottom: 16%;
+    padding-top: 8%;
+}
+
+.cta {
+    padding: 3% 10%;
+    text-align: left;
+}
+
+.cta1-1 {
+    font-size: 20px;
+    padding-left: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.cta1-2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    color: #EA5455;
+    position: relative;
+    z-index: 10;
+}
+
+.cta1-2:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.big-header {
+    margin-top: 4%;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #FFC478;
+    text-shadow: 2px 2px 4px #000000;
+    position: relative;
+    z-index: 10;
+}
+
+.fintech-logo {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    opacity: 0.2;
+}
+
+.signup-form {
+    padding: 3% 10%;
+}
+
+.design {
+    border-radius: 15px;
+    margin-top: 5%;
+    padding: 13px;
+}
+
+.title-form {
+    padding-bottom: 15px;
+}
+
+.design-one {
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.cta1 {
+    padding: 0 8%;
+    text-align: right;
+    line-height: 2.5;
+}
+
+i {
+    margin-left: 10px;
+    color: #F0E5D8;
+}
+
+i:hover {
+    color: #EA5455;
+}
+
+.copyright {
+    padding-top: 10%;
+    padding-left: 8.5%;
+}
+
+
+/*Media Queries*/
+
+@media (max-width: 767px) {
+    .cta1 {
+        text-align: center;
+    }
+    .cta {
+        padding-bottom: 8%;
+        text-align: center;
+    }
+    .big-header {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+}
